@@ -25,8 +25,8 @@ var handler = function getSZ(code, inputKeyword, docType, startDate, endDate) {
          startDate = "2001-01-01";
        }
        if (endDate == '') {
-         //endDate = getEndDate();
-         endDate = "2016-12-31";
+         endDate = getEndDate();
+         //endDate = "2016-12-31";
        }
        var keyword = urlencode(inputKeyword,'gbk');
 
