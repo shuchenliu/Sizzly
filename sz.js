@@ -207,7 +207,6 @@ var handler = function getSZ(code, inputKeyword, docType, startDate, endDate) {
        }
 
      keepGoing(formData, contentLength);
-     return 1;
   }
 
 
