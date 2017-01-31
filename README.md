@@ -36,7 +36,7 @@ The `sz.js` is a simple command line program based on Node.js that helps user ba
 `endDate`: <string> A date in `yyyy-mm-dd` form, setting an ending date of the time frame of the search. Default Value is set to the date when the search actually takes place.
 
 ### Example
-sz(000001, "董事会", "", "", "")
+`sz(000001, "董事会", "", "", "")` will search for all the public documents that contain the word `董事会` in the title published by `Ping An Bank` from `01/01/2001` to `today`.
 ### Output
 - A folder containing all the public documents that fall into search criteria.
 - A CSV file serving as a catalog for all downloaded files.
