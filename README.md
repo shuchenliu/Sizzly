@@ -2,7 +2,7 @@
 ## Usage
 The `sz.js` is a simple command line program based on Node.js that helps user batch-download public documents from China's Shenzhen Stock Exchange.
 ## The 'api' 
-###General Form
+### General Form
 `sz(stockCode, keyword, docType, startDate, endDate)`
 ### Parameters
 `stockCode`: <integer> a six-digit number that denotes the assigned code for the target stock. For example, '000001' stands for Ping An Bank (平安银行）. A full list can be found <a href='https://en.wikipedia.org/wiki/List_of_companies_listed_on_the_Shenzhen_Stock_Exchange'> here </a>.
