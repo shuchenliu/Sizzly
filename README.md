@@ -1,6 +1,6 @@
-# sz
+# Sizzly
 ## Usage
-The `sz.js` is a simple command line program based on Node.js that helps user batch-download public documents from China's Shenzhen Stock Exchange.
+The `Sizzly.js` is a simple command line program based on Node.js that helps user batch-download public documents from China's Shenzhen Stock Exchange.
 ## The 'api' 
 ### General Form
 `sz(stockCode, keyword, docType, startDate, endDate)`
